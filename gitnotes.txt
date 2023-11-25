@@ -1,0 +1,43 @@
+git basic command:-
+    git config --global user.name "name"
+#the above command set the name for the user
+    git config --global user.email  "email"
+#hte above comand set the email for the user
+#these are used while making contris and pr's
+    mkdir -p 'path'
+#this command makes a directory (folder)
+    cd 'path'
+#this commnd takes us into the directory  created
+    git init  #(either you can leave it empty or give it a path, if left empty it will take the path of current directory)
+#initializes a diretory as a git repo
+    git remote add origin  "URL"  
+#this adds the https of the git repo you want to contribute too
+    git clone "URL"
+#this clone the file on the online rep to your system
+    echo 'readme'>>readme.txt
+#this add a txt file to the directory (other extentions can be used.)
+    git status
+#this give the status of all the files in a directory wehter they are staged/unstaged/untracked
+    git commit -m "txt"
+#this commits a change done by you
+    git add <filename> or .  #(. takes all files and adds it)
+#used to add files
+    git checkout -b branchname
+#creats a seperate branch from the main where you can make your changes
+    git push -u origin branchname(#specifically while making contris in other repo)
+    git push origin master/main(#for your own repo)
+#pushes your changes into the original repo and the you can creat a pull req via github
+    cd ..
+#takes you one folder back in path
+    ls
+#gives you list of folder and file in the current directory
+    git remote -v
+#tell the origin link for fetch or push
+
+
+
+
+
+
+
+
