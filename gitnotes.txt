@@ -33,6 +33,7 @@ git basic command:-
 #gives you list of folder and file in the current directory
     git remote -v
 #tell the origin link for fetch or push
+git Hello Sehgal here
 
 
 
