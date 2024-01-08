@@ -6,7 +6,7 @@ git config --global user.email "your.email@example.com"
 
 # These configurations are used for making contributions and pull requests
 
-# Create a directory (folder)
+# Create a directory (folder)////
 mkdir -p 'path'
 
 # Change into the created directory
