@@ -1,0 +1,42 @@
+{% extends 'Booking/common.html' %}
+
+{% block content %}
+    <h2>Checkout</h2>
+    {% if output %}
+        {{ output }}
+    {% else %}
+    
+        <div id="checkout">
+            {% for booking in bookings %}
+                {% if booking.venue.id %}
+                    <div class="checkout-item">
+                        <h2>{{ booking.venue.venue_name }}</h2>
+                        <p>Location: {{ booking.venue.city }}, {{ booking.venue.state }}, {{ booking.venue.address }}</p>
+                        <p>Price: {{ booking.total_price }}</p>
+                    </div>
+                {% elif booking.professional.id %}
+                    <h2>{{ booking.professional.name }}</h2>
+                    <p>{{ booking.professional.profession }}</p>
+                    <p>Price: {{ booking.professional.price_range }}</p>
+                {% endif %}
+            {% endfor %}
+            
+            <div id="total-price">
+                <p>Total Price: {{ total_price }}</p>
+            </div>
+            
+            <!-- Add payment or confirmation button here -->
+            <form method="POST" action="{% url 'Payment:payment_init' %}" >
+                {% csrf_token %}
+                {% for booking in bookings %}
+                    <input type="hidden" name="booking_ids" value="{{ booking.id }}">
+                {% endfor %}
+                <button>Procced to pay</button>
+            </form>
+            
+        </div>
+
+    {% endif %}
+    
+
+{% endblock content %}

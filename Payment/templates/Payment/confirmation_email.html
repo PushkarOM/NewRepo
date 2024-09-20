@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Confirmation</title>
+</head>
+<body>
+    <h2>Booking Confirmation and Payment Success</h2>
+    <p>Dear User,</p>
+    
+    <p>Your booking details are:</p>
+    <ul>
+        {% for booking in bookings %}
+            <li>{{ booking.venue.venue_name }} - {{ booking.total_price }}</li>
+        {% endfor %}
+    </ul>
+    
+    <p>Total Amount: {{ total_amount }}</p>
+    
+    <p>{{ success_message }}</p>
+    <p>The Venues and Professionals have been booked for the specified days, one of the Vender and professional representative will contact you soon.
+         for further inquires you can contact our cutomer care : 1902910XXXX.</p>
+    <p>Thank you for using our service.</p>
+</body>
+</html>

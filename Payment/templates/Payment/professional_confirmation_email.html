@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Booking Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>New Booking Confirmation</h2>
+        <p>Dear {{ booking.professional.name }},</p> <!-- Adjust according to your model fields -->
+        
+        <p>A new booking has been made for your professional services:</p>
+        <ul>
+            <li>Booking ID: {{ booking.id }}</li>
+            <li>Booking Date: {{ booking.booking_date }}</li>
+        </ul>
+        
+        <p class="message">{{ success_message }}</p>
+        
+        <p>An Advance payment has been sent, additionally you find fruther Details in your App.</p>
+    </div>
+</body>
+</html>
