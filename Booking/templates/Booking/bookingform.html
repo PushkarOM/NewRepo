@@ -1,0 +1,116 @@
+{% extends 'Booking/common.html' %}
+
+{% block content %}
+
+    
+        {% if incomplete_bookings %}
+        {% for booking in incomplete_bookings %}    
+            {% if booking.venue %}
+                <form class="booking-forms"method="POST" action="{% url 'Booking:booking_form' booking.venue.id %}">
+                    {% csrf_token %}
+                
+                    <h3>{{booking.venue.venue_name}}</h3>
+                    <input type="hidden" id="venue_id" name="venue_id" value="{{ booking.venue.id }}">
+                    <input type="hidden" id="booking_id" name="booking_id" value="{{ booking.id }}">
+                    
+                    <label for="start_date">Start Date:</label>
+                    <input type="date" id="start_date" name="start_date_{{booking.id}}" value="{{ booking.start_date|date:'Y-m-d' }}" required><br><br>
+                    
+                    <label for="end_date">End Date:</label>
+                    <input type="date" id="end_date" name="end_date_{{booking.id}}" value="{{ booking.end_date|date:'Y-m-d' }}" required><br><br>
+                    
+                    <label for="num_people">Number of People:</label>
+                    <input type="number" id="num_people" name="num_people_{{booking.id}}" value="{{ booking.num_people }}" required><br><br>
+                    
+                    <label for="food_type">Food Type:</label>
+                    <input type="text" id="food_type" name="food_type_{{booking.id}}" value="{{ booking.food_type }}" required><br><br>
+                    
+                    <label for="event_type">Event Type:</label>
+                    <input type="text" id="event_type" name="event_type_{{booking.id}}" value="{{ booking.event_type }}" required><br><br>
+                    
+                    <label for="decoration_needed">Decoration Needed (Yes/No):</label>
+                    <input type="text" id="decoration_needed" name="decoration_needed_{{booking.id}}" value="{{ booking.decoration_needed|yesno:'Yes,No' }}"><br><br>
+                    
+                    <label for="time_duration">Time Duration:</label>
+                    <input type="text" id="time_duration" name="time_duration_{{booking.id}}" value="{{ booking.time_duration }}" required><br><br>
+                    
+                    <label for="additional_services">Additional Services:</label><br>
+                    <textarea id="additional_services" name="additional_services_{{booking.id}}" rows="4" cols="50">{{ booking.additional_services }}</textarea><br><br>
+                    
+                    
+            {% elif booking.professional %}
+            <p>{{booking.professional.name}}</p>
+                <form class="booking-forms" method="POST" action="{% url 'Booking:booking_form' booking.professional.id %}">
+                    {% csrf_token %}
+                    <input type="hidden" id="professional_id" name="professional_id" value="{{ booking.professional.id }}">
+                    <input type="hidden" id="booking_id" name="booking_id" value="{{ booking.id }}">
+                    
+                    <label for="start_date">Start Date:</label>
+                    <input type="date" id="start_date" name="start_date_{{booking.id}}" value="{{ booking.start_date|date:'Y-m-d' }}" required><br><br>
+                    
+                    <label for="end_date">End Date:</label>
+                    <input type="date" id="end_date" name="end_date_{{booking.id}}" value="{{ booking.end_date|date:'Y-m-d' }}" required><br><br>
+                    
+                    
+                    
+                    
+                    <label for="event_type">Event Type:</label>
+                    <input type="text" id="event_type" name="event_type_{{booking.id}}" value="{{ booking.event_type }}" required><br><br>
+                    
+                    
+                    
+                    <label for="time_duration">Time Duration:</label>
+                    <input type="text" id="time_duration" name="time_duration_{{booking.id}}" value="{{ booking.time_duration }}" required><br><br>
+                    
+                    
+                    
+                
+            {% else %}
+                <p>Error: No valid ID found for booking {{ booking.id }}</p>
+            {% endif %}
+            {% endfor %}
+         
+                <button type="submit">Submit</button>
+            
+            </form>
+        
+        {% else %}
+            
+
+            <form class="booking-forms" method="POST">
+                <h1>{{ venue.venue_name }}</h1>
+                <h1>To Book:</h1>
+                {% csrf_token %}
+                <input type="hidden" id="venue_id" name="venue_id" value="{{ venue.id }}">
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" required><br><br>
+                
+                <label for="end_date">End Date:</label>
+                <input type="date" id="end_date" name="end_date" required><br><br>
+                
+                <label for="num_people">Number of People:</label>
+                <input type="number" id="num_people" name="num_people" required><br><br>
+                
+                <label for="food_type">Food Type:</label>
+                <input type="text" id="food_type" name="food_type" required><br><br>
+                
+                <label for="event_type">Event Type:</label>
+                <input type="text" id="event_type" name="event_type" required><br><br>
+                
+                <label for="decoration_needed">Decoration Needed (Yes/No):</label>
+                <input type="text" id="decoration_needed" name="decoration_needed"><br><br>
+                
+                <label for="time_duration">Time Duration:</label>
+                <input type="text" id="time_duration" name="time_duration" required><br><br>
+                
+                <label for="additional_services">Additional Services:</label><br>
+                <textarea id="additional_services" name="additional_services" rows="4" cols="50"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+            
+            
+        {% endif %}
+        
+    
+{% endblock content %}
+

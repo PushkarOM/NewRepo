@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    {% load socialaccount %}
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="{% static 'Accounts/CSS/profile_CS.css'%}" />
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="{% url 'mainpage:mainpage'%}"><img id="navbar-logo" src="{% static 'Accounts/IMAGES/ayojan-logo1.png'%}" alt="logo"></a>
+        </div>
+        <div>
+            <span>Username :</span>
+            <form action="{% url 'Accounts:change' %}" method="POST">
+                {% csrf_token %}
+                    <div id="username">
+                        Current : {{user.username}}
+                        <div id = "username">
+                                <input name="changeusernameto" type="text">
+                        </div>
+                    </div>
+            
+                </div>
+                <div id="name">
+                    <div>
+                        <span>First Name :</span>
+                        <div id="username">
+                            Current : {{user.first_name}}
+                            <div id = "username">
+                                    <input name="changefirstnameto" type="text">
+                   
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Last Name :</span>
+                        <div id="username">
+                            Current : {{user.last_name}}
+                            <div id = "username">
+                                    <input name="changelastnameto" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Email :</span>
+                        <div id="username">
+                            Current : {{user.email}}
+                            <div id = "username">
+                                    <input name="changeemailto" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="submit-button" type="submit">Change</button>
+            </form>        
+    </body>        
+</html>

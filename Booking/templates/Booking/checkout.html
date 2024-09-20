@@ -1,0 +1,26 @@
+{% extends 'Booking/common.html' %}
+
+{% block content %}
+    <h2>Checkout</h2>
+    <div id="checkout">
+        {% for booking in bookings %}
+            {% if booking.venue.id %}
+                <div class="checkout-item">
+                    <h2>{{ booking.venue.venue_name }}</h2>
+                    <p>Location: {{ booking.venue.city }}, {{ booking.venue.state }}, {{ booking.venue.address }}</p>
+                    <p>Price: {{ booking.total_price }}</p>
+                </div>
+            {% elif booking.professional.id %}
+                <h2>{{ booking.professional.name }}</h2>
+                <p>{{ booking.professional.profession }}</p>
+                <p>Price: {{ booking.professional.price_range }}</p>
+            {% endif %}
+        {% endfor %}
+        
+        <div id="total-price">
+            <p>Total Price: {{ total_price }}</p>
+        </div>
+        
+        <!-- Add payment or confirmation button here -->
+    </div>
+{% endblock content %}

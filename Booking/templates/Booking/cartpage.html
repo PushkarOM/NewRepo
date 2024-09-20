@@ -1,0 +1,60 @@
+{% extends 'Booking/common.html' %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+        {% if bookings %}
+        <div class="cart">
+            <h2>Booking List</h2>
+        
+                <!-- Venue Item -->
+                {% for booking in bookings %}
+                {% if booking.venue.id %}
+                <div class="cart-info">
+                    <div class="venue-img">
+                        <img  id="img" src="..{{ booking.venue.image.url }}" alt="venue">
+                    </div>
+                    <div class="info" >
+                        <h2>{{ booking.venue.venue_name }}</h2>
+                        <p>Location: {{ booking.venue.city }}, {{ booking.venue.state }}, {{ booking.venue.address }}</p>
+                        <p>Price: {{ booking.total_price }}</p>
+                    </div>
+
+                </div>
+                {% endif %}
+                
+                {% if booking.professional.id %}
+                <div class="cart-info">
+                    <div class="venue-img">
+                        <img  id="img" src="..{{ booking.professional.image.url }}" alt="venue">
+                    </div>
+                    <div class="info">
+                        <h2>{{ booking.professional.name }}</h2>
+                        <p>{{ booking.professional.profession }}</p>
+                        <p>Price: {{ booking.professional.price_range }}</p>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+           
+    
+        
+            <div class="total-price">
+                <p>Total Price: $2300</p>
+            </div>
+        
+            <form method="POST" action="{% url 'Booking:checkout' %}">
+                {% csrf_token %}
+                {% for booking in bookings %}
+                    <input type="hidden" name="booking_ids" value="{{ booking.id }}">
+                {% endfor %}
+                <button id="checkout-button" type="submit">Proceed to Checkout</button>
+            </form>
+        </div>
+        {% else %}
+        <div>Add something in your cart!</div>
+        {% endif %}
+    {% else %}
+        <div><h1>Login to see What's in your Booking List</h1></div>
+    {% endif %}
+{% endblock content %}

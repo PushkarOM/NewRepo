@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% load static %}
+  {% load socialaccount %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="{% static 'Accounts/CSS/login_CS.css' %}" rel="stylesheet">
+
+  <title>Login Page</title>
+</head>
+
+<body>
+  {% if user.is_authenticated %}
+  <script type="text/javascript">
+      window.location.href = "{% url 'mainpage:mainpage' %}";
+  </script>
+  {% endif %}
+  <div class="navbar">
+    <img id="navbar-logo" src="{% static 'Accounts/IMAGES/ayojan-logo1.png'%}" alt="logo">
+  </div>
+  <div class="middle">
+    <div class="login-div">
+      <img id="login-div-logo" src="{% static 'Accounts/IMAGES/ayojan-logo1.png'%}" alt="logo">
+      <div class="login-form-div">
+        <form action="{% provider_login_url 'google' %}" method="post">
+          {% csrf_token %}
+          <button type="submit" id="google-login-button"><img id="google-logo" src="{% static 'Accounts/IMAGES/icons8-google-logo-48.png'%}"><span id="google-login-text">Login</span></button>
+        </form>
+        <span>-----Or-----</span>
+        <form class="login-form" method="POST">
+          {% csrf_token %}
+          <input type="text" name="USERNAME_OR_EMAIL" id="USERNAME_OR_EMAIL" placeholder="USERNAME or Email">
+          <input type="password" name="PASSWORD" id="PASSWORD" placeholder="PASSWORD">
+          <button id="submit-button" type="submit">Login</button>
+        </form>
+        <div class="signup-div">
+          <span>Don't Have an account</span>
+          <a href="{% url 'Accounts:signup_view'%}"><button id="google-login-button">Sign Up</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

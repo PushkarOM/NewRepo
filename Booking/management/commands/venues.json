@@ -1,0 +1,1725 @@
+[
+    {
+        "venue_name": "Singhal LLC",
+        "base_price": 1040.49,
+        "state": "West Bengal",
+        "city": "Madurai",
+        "address": "41/56, Sawhney Ganj, Burhanpur-178552",
+        "seating_capacity": 207,
+        "description": "Deleniti voluptate modi est. Animi excepturi debitis amet esse quas. Ducimus ad autem neque.\nError expedita sapiente. Quam tempora sit at itaque id ipsa. Ex maiores esse nulla quaerat eveniet rem.",
+        "amenities": [
+            "Restrooms",
+            "Air Conditioning",
+            "Parking",
+            "Sound System",
+            "Stage"
+        ],
+        "contact_number": "00487080445",
+        "contact_email": "adiraedwin@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Bassi-Saxena",
+        "base_price": 5427.61,
+        "state": "Goa",
+        "city": "Jhansi",
+        "address": "284, Chada Ganj, Katihar-717930",
+        "seating_capacity": 437,
+        "description": "Itaque cumque repellendus minima omnis. Dolor cupiditate nam quibusdam illo maxime. Tempore perspiciatis temporibus inventore veritatis quasi officiis.",
+        "amenities": [
+            "WiFi",
+            "Air Conditioning",
+            "Sound System",
+            "Parking",
+            "Stage"
+        ],
+        "contact_number": "02834016479",
+        "contact_email": "jgoyal@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Bir and Sons",
+        "base_price": 1032.34,
+        "state": "Meghalaya",
+        "city": "Ichalkaranji",
+        "address": "56/175, Bala Circle\nGopalpur 680637",
+        "seating_capacity": 90,
+        "description": "Deserunt voluptates eligendi nesciunt nostrum. Assumenda sint fugiat error aspernatur. Iure possimus eligendi temporibus mollitia facere.",
+        "amenities": [
+            "Restrooms",
+            "Parking"
+        ],
+        "contact_number": "4038839960",
+        "contact_email": "bhagatemir@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Buch Group",
+        "base_price": 873.42,
+        "state": "Kerala",
+        "city": "Ambala",
+        "address": "96/15\nSarin Ganj, Dibrugarh-955062",
+        "seating_capacity": 93,
+        "description": "Numquam debitis est quae totam dolores. Facere impedit placeat voluptatum eum amet esse. Possimus aperiam repellat.",
+        "amenities": [
+            "WiFi"
+        ],
+        "contact_number": "08421351171",
+        "contact_email": "kakaraniruddh@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Mangat, Karan and Brar",
+        "base_price": 4453.47,
+        "state": "Assam",
+        "city": "Sirsa",
+        "address": "26/234, Randhawa Chowk\nPatiala 787088",
+        "seating_capacity": 344,
+        "description": "Ad minus voluptatum laboriosam eligendi quas. Est rerum quaerat.",
+        "amenities": [
+            "Parking",
+            "Sound System"
+        ],
+        "contact_number": "04076066690",
+        "contact_email": "baijusangha@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Biswas, Kumar and Rege",
+        "base_price": 9393.15,
+        "state": "Bihar",
+        "city": "Gudivada",
+        "address": "428, Kurian Chowk, Srikakulam-167152",
+        "seating_capacity": 177,
+        "description": "At nihil deleniti doloribus delectus labore.\nSimilique magnam saepe. Error odit voluptatem aspernatur.\nQuidem officiis soluta repellendus incidunt. Iusto quae nisi occaecati maiores provident.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "+910894362727",
+        "contact_email": "tarankala@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Master-Vala",
+        "base_price": 7390.24,
+        "state": "Kerala",
+        "city": "Baranagar",
+        "address": "H.No. 78\nSha Street, Uluberia-942466",
+        "seating_capacity": 290,
+        "description": "Veniam magni nisi in pariatur aspernatur. Libero id praesentium numquam officiis. Sint doloremque nesciunt impedit enim nesciunt.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "+911170833481",
+        "contact_email": "swaminathanarhaan@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Dutta, De and Shankar",
+        "base_price": 4953.73,
+        "state": "Telangana",
+        "city": "Guntakal",
+        "address": "83/386\nJaggi Zila, Erode 118157",
+        "seating_capacity": 347,
+        "description": "Eligendi voluptates pariatur voluptatibus suscipit voluptatibus. Quibusdam quisquam expedita officia quia corrupti.",
+        "amenities": [
+            "WiFi",
+            "Stage",
+            "Parking"
+        ],
+        "contact_number": "06561850500",
+        "contact_email": "miraan41@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Raja LLC",
+        "base_price": 9245.25,
+        "state": "Rajasthan",
+        "city": "Haldia",
+        "address": "03, Majumdar Ganj, Amaravati-299321",
+        "seating_capacity": 149,
+        "description": "Doloribus beatae nisi architecto. Laudantium laudantium commodi laudantium. Beatae deserunt non hic error sapiente.",
+        "amenities": [
+            "WiFi",
+            "Air Conditioning",
+            "Parking"
+        ],
+        "contact_number": "+917754581030",
+        "contact_email": "adar@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Bhatia-Bera",
+        "base_price": 3423.02,
+        "state": "Odisha",
+        "city": "Hazaribagh",
+        "address": "47/187\nShenoy\nBettiah-050649",
+        "seating_capacity": 111,
+        "description": "Architecto optio distinctio non quis sed facilis. Ducimus consectetur autem optio ea labore.",
+        "amenities": [
+            "Sound System",
+            "Parking",
+            "Restrooms",
+            "Stage",
+            "WiFi"
+        ],
+        "contact_number": "8118247572",
+        "contact_email": "samar37@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Ratti, Thaman and Raja",
+        "base_price": 5626.21,
+        "state": "Manipur",
+        "city": "Navi Mumbai",
+        "address": "H.No. 034\nJani Path, Korba-234524",
+        "seating_capacity": 390,
+        "description": "Cupiditate minima ipsa nulla dicta ea iste. Vitae maiores provident. Beatae similique porro voluptatem optio non.",
+        "amenities": [
+            "Restrooms",
+            "Air Conditioning",
+            "Stage",
+            "Parking",
+            "Sound System",
+            "WiFi"
+        ],
+        "contact_number": "+913099240681",
+        "contact_email": "sagarlavanya@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Madan, Sibal and Butala",
+        "base_price": 2038.41,
+        "state": "Uttar Pradesh",
+        "city": "Adoni",
+        "address": "25, Ramanathan Road, Ahmednagar-012501",
+        "seating_capacity": 165,
+        "description": "Aliquam accusamus voluptatibus deserunt autem eligendi ab. Quasi provident aperiam possimus voluptates minus maiores. Tempora iste rem voluptate.",
+        "amenities": [
+            "Restrooms",
+            "Parking",
+            "WiFi",
+            "Sound System",
+            "Air Conditioning",
+            "Stage"
+        ],
+        "contact_number": "02953813804",
+        "contact_email": "sanaramachandran@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Buch, Karnik and Karan",
+        "base_price": 987.62,
+        "state": "Uttar Pradesh",
+        "city": "Kharagpur",
+        "address": "14/380, Devi Nagar, Chennai-606010",
+        "seating_capacity": 458,
+        "description": "Rem laborum velit quo deleniti. Quisquam quisquam nostrum vel ipsam inventore fugiat repudiandae. Veritatis dolor delectus voluptatibus laudantium enim veritatis impedit.",
+        "amenities": [
+            "Parking",
+            "Sound System"
+        ],
+        "contact_number": "+910529766917",
+        "contact_email": "rattifaiyaz@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Bassi-Devi",
+        "base_price": 9814.22,
+        "state": "Tripura",
+        "city": "Aurangabad",
+        "address": "51/68\nBanerjee\nDurgapur 683227",
+        "seating_capacity": 67,
+        "description": "Nobis commodi corporis vero. Voluptatum cupiditate vero numquam minus dolor.",
+        "amenities": [
+            "Stage"
+        ],
+        "contact_number": "08677116454",
+        "contact_email": "pshetty@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Bal, Baral and Majumdar",
+        "base_price": 8133.81,
+        "state": "Kerala",
+        "city": "Hajipur",
+        "address": "35\nBhalla Marg, Aligarh-300902",
+        "seating_capacity": 180,
+        "description": "Maxime nobis cupiditate fuga. Porro cupiditate ex quasi. Veniam non magnam cumque. Corporis placeat soluta et quasi.",
+        "amenities": [
+            "Restrooms",
+            "Sound System",
+            "Parking",
+            "Air Conditioning",
+            "WiFi",
+            "Stage"
+        ],
+        "contact_number": "+915550869012",
+        "contact_email": "divij38@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Baral-Basu",
+        "base_price": 6526.39,
+        "state": "Mizoram",
+        "city": "Muzaffarnagar",
+        "address": "198, Raval Zila, Munger 778478",
+        "seating_capacity": 376,
+        "description": "Adipisci omnis tempora iure asperiores fugit cumque. Commodi omnis ipsum.",
+        "amenities": [
+            "Parking",
+            "Sound System"
+        ],
+        "contact_number": "07472772623",
+        "contact_email": "dashumang@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Bhatnagar, Bhargava and Kulkarni",
+        "base_price": 5918.48,
+        "state": "Mizoram",
+        "city": "Aurangabad",
+        "address": "90\nKamdar Ganj\nRamgarh-245042",
+        "seating_capacity": 219,
+        "description": "Sunt deleniti cumque expedita dolore. Aspernatur expedita ratione enim. Illo nemo unde exercitationem.",
+        "amenities": [
+            "Stage",
+            "Air Conditioning"
+        ],
+        "contact_number": "00744472879",
+        "contact_email": "ryangola@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Chadha, Thaker and Sem",
+        "base_price": 1080.72,
+        "state": "Assam",
+        "city": "Amaravati",
+        "address": "H.No. 344\nLall Path\nGudivada 335769",
+        "seating_capacity": 344,
+        "description": "Quasi asperiores vitae illum odit corrupti quos. Natus ea eos hic ipsa.",
+        "amenities": [
+            "Parking",
+            "Restrooms",
+            "Air Conditioning",
+            "Sound System",
+            "WiFi",
+            "Stage"
+        ],
+        "contact_number": "06221675141",
+        "contact_email": "daminisingh@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Bail and Sons",
+        "base_price": 6523.61,
+        "state": "Mizoram",
+        "city": "Pune",
+        "address": "841, Buch Street, Rajahmundry 556857",
+        "seating_capacity": 122,
+        "description": "Consectetur cum alias facilis ab ut. Nisi aut tenetur debitis minima. Tempore praesentium culpa enim eaque sit.",
+        "amenities": [
+            "Sound System",
+            "Parking",
+            "WiFi",
+            "Stage"
+        ],
+        "contact_number": "+916100994340",
+        "contact_email": "kanav14@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Arora-Gandhi",
+        "base_price": 2308.29,
+        "state": "Bihar",
+        "city": "Deoghar",
+        "address": "H.No. 08, Johal Path, Bahraich-605610",
+        "seating_capacity": 198,
+        "description": "Voluptates suscipit aspernatur repudiandae. Minus quod cupiditate est consectetur. Eaque iste cumque natus quibusdam numquam harum nihil.",
+        "amenities": [
+            "Parking",
+            "Air Conditioning",
+            "Stage",
+            "Sound System"
+        ],
+        "contact_number": "8086323338",
+        "contact_email": "bandibhavin@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kade-Sethi",
+        "base_price": 3072.46,
+        "state": "Haryana",
+        "city": "Madurai",
+        "address": "H.No. 05\nChowdhury\nGiridih 730909",
+        "seating_capacity": 244,
+        "description": "Dolorem sed repellendus quis quia odio esse. Cum praesentium velit dolor officia consequuntur.\nSapiente odit repudiandae quia. Minima tenetur earum.",
+        "amenities": [
+            "Parking",
+            "Restrooms",
+            "Air Conditioning",
+            "Sound System",
+            "WiFi"
+        ],
+        "contact_number": "+913812803865",
+        "contact_email": "tandonnitara@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kade, Chopra and Jain",
+        "base_price": 7321.34,
+        "state": "Meghalaya",
+        "city": "Ujjain",
+        "address": "H.No. 74\nSarna\nPhusro 087419",
+        "seating_capacity": 492,
+        "description": "Hic unde similique incidunt inventore laboriosam. Placeat at nisi quaerat architecto provident.\nEum commodi quidem molestias optio. Fuga velit alias aperiam.",
+        "amenities": [
+            "Stage",
+            "Restrooms"
+        ],
+        "contact_number": "2327020115",
+        "contact_email": "vdua@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Thaker-Setty",
+        "base_price": 2592.22,
+        "state": "Madhya Pradesh",
+        "city": "Tinsukia",
+        "address": "91/231, Devi Chowk\nNizamabad 204935",
+        "seating_capacity": 486,
+        "description": "Praesentium doloremque eaque consectetur. Expedita deserunt laboriosam consequuntur ut voluptate voluptatem. Libero tempore quasi. Accusantium commodi veritatis tempore.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "08560160323",
+        "contact_email": "choudharychirag@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Mane-Soni",
+        "base_price": 5245.2,
+        "state": "Manipur",
+        "city": "Amroha",
+        "address": "48/08\nButala Circle\nRohtak-177973",
+        "seating_capacity": 99,
+        "description": "Doloremque quibusdam nesciunt voluptas quam vel quod. Aliquam quibusdam numquam eius sequi minima cupiditate.",
+        "amenities": [
+            "Restrooms",
+            "WiFi"
+        ],
+        "contact_number": "01636810868",
+        "contact_email": "ishitachakrabarti@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Tailor-Kale",
+        "base_price": 7284.02,
+        "state": "Andhra Pradesh",
+        "city": "Kota",
+        "address": "76/92, Dasgupta Ganj, Shimla 671830",
+        "seating_capacity": 349,
+        "description": "Cumque delectus dignissimos. Saepe possimus perspiciatis expedita delectus accusantium numquam quidem.\nCum molestias aspernatur qui occaecati facilis dicta.",
+        "amenities": [
+            "Parking",
+            "Sound System",
+            "WiFi",
+            "Restrooms",
+            "Air Conditioning",
+            "Stage"
+        ],
+        "contact_number": "08527190326",
+        "contact_email": "nishith44@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Das and Sons",
+        "base_price": 2303.44,
+        "state": "Karnataka",
+        "city": "Bhiwani",
+        "address": "19\nViswanathan Circle\nMalda 400642",
+        "seating_capacity": 417,
+        "description": "Tempora mollitia non nisi deleniti. Doloremque et dolorum distinctio suscipit.\nRem maxime distinctio repellendus repudiandae. Ex perspiciatis ipsa fuga ipsam.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Stage",
+            "Air Conditioning",
+            "Restrooms"
+        ],
+        "contact_number": "03253216400",
+        "contact_email": "uthkarshkaur@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Vaidya Ltd",
+        "base_price": 6900.98,
+        "state": "Kerala",
+        "city": "Mehsana",
+        "address": "12/88, Bains\nAnantapuram-704874",
+        "seating_capacity": 229,
+        "description": "Commodi occaecati esse.",
+        "amenities": [
+            "Sound System",
+            "Parking"
+        ],
+        "contact_number": "00639136905",
+        "contact_email": "rajagopalkiaan@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Shenoy Ltd",
+        "base_price": 582.94,
+        "state": "Madhya Pradesh",
+        "city": "Aurangabad",
+        "address": "195, Dhillon Ganj, Gorakhpur 557351",
+        "seating_capacity": 114,
+        "description": "Dicta doloremque quis fugit eius.",
+        "amenities": [
+            "Stage",
+            "Sound System",
+            "WiFi",
+            "Parking"
+        ],
+        "contact_number": "+910218573249",
+        "contact_email": "madhav34@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Vig Inc",
+        "base_price": 5462.14,
+        "state": "West Bengal",
+        "city": "Bhind",
+        "address": "H.No. 63\nKalita, Alwar 485754",
+        "seating_capacity": 440,
+        "description": "Cum delectus molestiae rerum sint accusamus quas.\nAccusantium necessitatibus esse nostrum quisquam libero repellat. Facere nisi delectus sint molestiae alias molestiae.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Air Conditioning",
+            "Restrooms"
+        ],
+        "contact_number": "+919407601307",
+        "contact_email": "vaibhav59@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Brahmbhatt PLC",
+        "base_price": 5990.95,
+        "state": "Rajasthan",
+        "city": "Bijapur",
+        "address": "89/60, Sheth Street\nJunagadh 604866",
+        "seating_capacity": 349,
+        "description": "Exercitationem laudantium error quia illum. Sunt molestiae eveniet aut. Repudiandae dolor minus ad ad accusamus.\nOdio deserunt quos illo laboriosam labore possimus sit.",
+        "amenities": [
+            "Air Conditioning",
+            "Parking"
+        ],
+        "contact_number": "01406928011",
+        "contact_email": "pari75@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Buch PLC",
+        "base_price": 4442.8,
+        "state": "Manipur",
+        "city": "Sikar",
+        "address": "H.No. 27\nDugar Zila\nDharmavaram 431886",
+        "seating_capacity": 466,
+        "description": "Ducimus eligendi ab possimus illum. Nulla ipsam expedita accusantium eius quaerat modi. Aspernatur magni eligendi ullam. Veniam molestiae quis saepe saepe suscipit.",
+        "amenities": [
+            "Sound System",
+            "Parking",
+            "WiFi"
+        ],
+        "contact_number": "4157385333",
+        "contact_email": "zyohannan@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Shankar, Chaudhari and Mahajan",
+        "base_price": 745.78,
+        "state": "Mizoram",
+        "city": "Bhagalpur",
+        "address": "800, Sheth\nPatna 734513",
+        "seating_capacity": 92,
+        "description": "Nobis dolorum quam qui veritatis perferendis. Corrupti sed atque odio doloremque. Esse repellat quis in delectus maiores numquam.",
+        "amenities": [
+            "WiFi",
+            "Air Conditioning"
+        ],
+        "contact_number": "03382296224",
+        "contact_email": "arnav19@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Anne PLC",
+        "base_price": 3514.92,
+        "state": "Odisha",
+        "city": "Kamarhati",
+        "address": "368\nBadami Road, Muzaffarpur-414851",
+        "seating_capacity": 438,
+        "description": "Est saepe neque reiciendis quaerat nisi. Asperiores fugiat placeat consequatur explicabo voluptates.",
+        "amenities": [
+            "Air Conditioning",
+            "Sound System",
+            "Parking"
+        ],
+        "contact_number": "+913114576882",
+        "contact_email": "sahilchar@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Banerjee-Sabharwal",
+        "base_price": 7781.86,
+        "state": "Sikkim",
+        "city": "Bilaspur",
+        "address": "509, Taneja Zila, Darbhanga-227056",
+        "seating_capacity": 458,
+        "description": "Quisquam dignissimos mollitia. Aut a odit iusto quia. Labore magnam ipsam rem ullam ducimus nobis aperiam.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "1969484114",
+        "contact_email": "ira89@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kibe, Mani and Johal",
+        "base_price": 6135.86,
+        "state": "Nagaland",
+        "city": "Bhagalpur",
+        "address": "10, Bath Ganj, Orai 869597",
+        "seating_capacity": 90,
+        "description": "Laborum velit nulla corrupti soluta impedit temporibus. Voluptates sint corporis excepturi ea rem amet.\nMollitia voluptas possimus ea error. Vitae laborum saepe neque. Error deserunt dolor.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Air Conditioning",
+            "Restrooms",
+            "Sound System",
+            "Stage"
+        ],
+        "contact_number": "9567466584",
+        "contact_email": "prerak29@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Mane-Uppal",
+        "base_price": 1530.58,
+        "state": "Meghalaya",
+        "city": "Unnao",
+        "address": "H.No. 769, Rajan Street\nPallavaram-683428",
+        "seating_capacity": 331,
+        "description": "Sapiente perferendis beatae error commodi nesciunt autem quam. Fugiat quisquam iusto corporis animi quos itaque. Itaque ratione eos unde autem ad.",
+        "amenities": [
+            "WiFi",
+            "Restrooms",
+            "Stage",
+            "Sound System",
+            "Parking",
+            "Air Conditioning"
+        ],
+        "contact_number": "02081441330",
+        "contact_email": "zatwal@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Ganguly-Saha",
+        "base_price": 8739.43,
+        "state": "Odisha",
+        "city": "Pallavaram",
+        "address": "H.No. 17, Chaudhari Ganj, Bhalswa Jahangir Pur 671595",
+        "seating_capacity": 339,
+        "description": "Quibusdam maiores at nesciunt praesentium. Laborum quae consequatur repellat. Aspernatur nobis unde provident.\nCommodi pariatur consequatur. Eaque perspiciatis maiores aliquam. Accusantium et esse.",
+        "amenities": [
+            "Stage",
+            "Air Conditioning",
+            "Parking",
+            "Sound System",
+            "WiFi"
+        ],
+        "contact_number": "+911589939995",
+        "contact_email": "manneryan@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Sarin, Wadhwa and Rao",
+        "base_price": 8797.65,
+        "state": "Goa",
+        "city": "North Dumdum",
+        "address": "H.No. 672, Kala Nagar\nIndore 887523",
+        "seating_capacity": 259,
+        "description": "Nihil cumque veritatis accusamus neque sed. Aut expedita veniam laudantium debitis. Earum eveniet possimus accusantium ullam.",
+        "amenities": [
+            "Stage",
+            "Parking",
+            "Sound System",
+            "Restrooms"
+        ],
+        "contact_number": "06806920697",
+        "contact_email": "virkdamini@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Majumdar-Butala",
+        "base_price": 7313.12,
+        "state": "Meghalaya",
+        "city": "Aurangabad",
+        "address": "72\nSaxena Chowk, Khandwa-396718",
+        "seating_capacity": 232,
+        "description": "Amet aspernatur quidem veritatis voluptatum corporis. Neque eum rerum molestias quos totam molestiae repellendus. Exercitationem inventore modi error vitae non suscipit.",
+        "amenities": [
+            "Sound System",
+            "Stage",
+            "Air Conditioning",
+            "Restrooms"
+        ],
+        "contact_number": "+915374538212",
+        "contact_email": "uthkarshbaral@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Borra and Sons",
+        "base_price": 7334.94,
+        "state": "Odisha",
+        "city": "Gopalpur",
+        "address": "H.No. 444\nVasa Path\nBhiwandi-631089",
+        "seating_capacity": 243,
+        "description": "Odio facere nesciunt placeat numquam. Aliquid ea error occaecati itaque accusamus fugiat quae.",
+        "amenities": [
+            "Restrooms",
+            "Parking",
+            "Air Conditioning",
+            "Sound System"
+        ],
+        "contact_number": "+916028831430",
+        "contact_email": "ssekhon@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Chaudry-Mammen",
+        "base_price": 8815.89,
+        "state": "Gujarat",
+        "city": "Pondicherry",
+        "address": "95/547\nSem Path, North Dumdum-374338",
+        "seating_capacity": 445,
+        "description": "Repudiandae adipisci quos blanditiis sequi voluptate. Officia hic quo tempora.\nSequi in ducimus dicta. Aperiam placeat magni qui cupiditate eius.",
+        "amenities": [
+            "Restrooms",
+            "Stage",
+            "WiFi",
+            "Air Conditioning",
+            "Parking"
+        ],
+        "contact_number": "+911187362069",
+        "contact_email": "ryanbasak@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Ranganathan, Sawhney and Ahluwalia",
+        "base_price": 8883.55,
+        "state": "Rajasthan",
+        "city": "Ajmer",
+        "address": "52\nCheema Road, Haldia-956293",
+        "seating_capacity": 296,
+        "description": "Aspernatur est ad eligendi tenetur ut doloremque. Ducimus quis eaque corrupti reprehenderit sapiente et.\nCum asperiores totam facilis esse excepturi at. Voluptates sint sapiente sint veritatis natus.",
+        "amenities": [
+            "Stage",
+            "Sound System",
+            "WiFi",
+            "Parking",
+            "Restrooms"
+        ],
+        "contact_number": "2775421415",
+        "contact_email": "kanav85@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Krish PLC",
+        "base_price": 3878.87,
+        "state": "Gujarat",
+        "city": "Purnia",
+        "address": "84/092, Dass Chowk, Malda-815965",
+        "seating_capacity": 289,
+        "description": "Neque perferendis voluptate ad.\nDoloribus soluta tempora facere quibusdam cupiditate.\nDolorum inventore iure error. Beatae quo hic officiis. Reprehenderit nulla cupiditate.",
+        "amenities": [
+            "Restrooms",
+            "Parking"
+        ],
+        "contact_number": "6691487964",
+        "contact_email": "nsastry@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Sidhu, Seth and Contractor",
+        "base_price": 540.69,
+        "state": "Telangana",
+        "city": "Bhilwara",
+        "address": "356, Chandra Path, Alappuzha-624197",
+        "seating_capacity": 270,
+        "description": "Delectus odio tempora. A assumenda deserunt quos qui voluptatibus.\nDelectus eligendi repellat id. Numquam eius eius. Hic modi illum.",
+        "amenities": [
+            "Sound System",
+            "WiFi",
+            "Air Conditioning",
+            "Parking",
+            "Stage"
+        ],
+        "contact_number": "+916669552747",
+        "contact_email": "ebhavsar@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Bhalla-Bora",
+        "base_price": 1405.04,
+        "state": "Chhattisgarh",
+        "city": "Sirsa",
+        "address": "H.No. 65\nDass Zila, Uluberia 438323",
+        "seating_capacity": 232,
+        "description": "Inventore iusto iure doloribus ipsum iure voluptatem. Ratione quaerat necessitatibus quas vero repellendus.",
+        "amenities": [
+            "WiFi",
+            "Restrooms",
+            "Air Conditioning",
+            "Sound System"
+        ],
+        "contact_number": "01868707919",
+        "contact_email": "kumardevansh@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Shah-Lalla",
+        "base_price": 7156.94,
+        "state": "Kerala",
+        "city": "Bikaner",
+        "address": "86/98, Varughese Chowk, Darbhanga 773846",
+        "seating_capacity": 66,
+        "description": "Iste soluta minus voluptatum quo vero labore. Quis est ut in earum dolorem repellat. Magnam sit incidunt et libero debitis.\nAdipisci aliquam incidunt eos facilis repellat.",
+        "amenities": [
+            "WiFi",
+            "Parking"
+        ],
+        "contact_number": "09011608572",
+        "contact_email": "bijudevan@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Chand PLC",
+        "base_price": 3665.19,
+        "state": "Andhra Pradesh",
+        "city": "Shimla",
+        "address": "H.No. 08, Chandran Zila\nNanded-096249",
+        "seating_capacity": 108,
+        "description": "Quod ipsam commodi doloribus. Eius commodi in. Dolorum error ex ea assumenda.\nEa accusantium quidem fuga adipisci. Quis ex nemo ducimus.",
+        "amenities": [
+            "Stage",
+            "WiFi",
+            "Air Conditioning",
+            "Parking"
+        ],
+        "contact_number": "+911600925984",
+        "contact_email": "vkaur@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Manda LLC",
+        "base_price": 1330.18,
+        "state": "Bihar",
+        "city": "Pondicherry",
+        "address": "H.No. 11, Sheth Circle\nParbhani 649148",
+        "seating_capacity": 169,
+        "description": "Porro atque adipisci quas ipsa. Perferendis earum dolorem nostrum. Occaecati voluptate optio sint.\nRem distinctio fugit doloremque omnis ad suscipit.\nUllam veniam animi quos rerum aspernatur.",
+        "amenities": [
+            "Restrooms",
+            "Air Conditioning",
+            "Sound System"
+        ],
+        "contact_number": "+916794088474",
+        "contact_email": "fateh10@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Gandhi-Bhat",
+        "base_price": 3914.9,
+        "state": "Uttar Pradesh",
+        "city": "Kulti",
+        "address": "H.No. 70, Badal Ganj, Panihati 029220",
+        "seating_capacity": 377,
+        "description": "Occaecati impedit earum vel inventore magnam. Quisquam et reiciendis eveniet nesciunt maiores.\nSunt ullam quasi. Soluta cumque illum. Eveniet aliquam distinctio necessitatibus.",
+        "amenities": [
+            "Parking",
+            "WiFi"
+        ],
+        "contact_number": "09192017801",
+        "contact_email": "tgala@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Kari-Raj",
+        "base_price": 8480.81,
+        "state": "Meghalaya",
+        "city": "Thane",
+        "address": "H.No. 78, Srinivas Chowk, Bhubaneswar-806529",
+        "seating_capacity": 294,
+        "description": "Cum eos a dolor veritatis non quae repellendus. Perferendis repellendus voluptas voluptatibus totam eum aliquid.\nIste reiciendis animi debitis quaerat quae. Iure alias est commodi.",
+        "amenities": [
+            "Sound System",
+            "Restrooms",
+            "Air Conditioning",
+            "Stage",
+            "WiFi",
+            "Parking"
+        ],
+        "contact_number": "09421294493",
+        "contact_email": "dhanuk54@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Dubey Group",
+        "base_price": 611.57,
+        "state": "Manipur",
+        "city": "Bhilai",
+        "address": "644, Bhatt Zila\nAnantapuram-851138",
+        "seating_capacity": 464,
+        "description": "Asperiores eum repudiandae hic.\nPlaceat repudiandae mollitia ea delectus. Nihil adipisci architecto asperiores quam minus.",
+        "amenities": [
+            "Stage",
+            "Air Conditioning",
+            "WiFi",
+            "Sound System",
+            "Restrooms",
+            "Parking"
+        ],
+        "contact_number": "08548547630",
+        "contact_email": "hayrevidur@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Bhatia, Bala and Loyal",
+        "base_price": 7807.34,
+        "state": "Gujarat",
+        "city": "Chinsurah",
+        "address": "613\nRajan Circle\nNorth Dumdum-402260",
+        "seating_capacity": 321,
+        "description": "Sit quidem error asperiores. Laborum exercitationem expedita.",
+        "amenities": [
+            "Stage",
+            "Sound System",
+            "Parking",
+            "Restrooms",
+            "Air Conditioning",
+            "WiFi"
+        ],
+        "contact_number": "3024677237",
+        "contact_email": "berahridaan@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Shetty, Sura and Bains",
+        "base_price": 3390.52,
+        "state": "Rajasthan",
+        "city": "Vijayanagaram",
+        "address": "64/624, Arya Marg\nShimla 553142",
+        "seating_capacity": 473,
+        "description": "Fuga pariatur voluptates id numquam blanditiis. Minima blanditiis adipisci nostrum dolore cupiditate. Dolorem delectus recusandae.",
+        "amenities": [
+            "Stage"
+        ],
+        "contact_number": "+912868388326",
+        "contact_email": "igarde@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Choudhury, Rajagopal and Subramanian",
+        "base_price": 858.77,
+        "state": "Nagaland",
+        "city": "Chapra",
+        "address": "27/88, Halder Zila, Raebareli 351370",
+        "seating_capacity": 185,
+        "description": "Quidem quia nobis corrupti ex accusantium. Vitae aperiam odit amet quia dolorem accusantium.\nOfficia maiores distinctio corrupti minus harum dolorem. Praesentium nulla repudiandae quae optio ab.",
+        "amenities": [
+            "Parking",
+            "Sound System"
+        ],
+        "contact_number": "08110051512",
+        "contact_email": "umanglala@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Bassi-Kashyap",
+        "base_price": 6535.15,
+        "state": "Kerala",
+        "city": "Rajpur Sonarpur",
+        "address": "80/959\nBehl Path\nKishanganj-998744",
+        "seating_capacity": 405,
+        "description": "Magni in accusantium voluptates eveniet autem repellat. Itaque dolorum porro sint.",
+        "amenities": [
+            "Air Conditioning"
+        ],
+        "contact_number": "01216377818",
+        "contact_email": "ahana-43@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Raj-Vohra",
+        "base_price": 3491.71,
+        "state": "Tamil Nadu",
+        "city": "Srikakulam",
+        "address": "H.No. 13\nKota Ganj, Mysore 400232",
+        "seating_capacity": 247,
+        "description": "Odio delectus quidem dolorum doloribus odit. Veniam ut eveniet labore. Laudantium officiis dolor facilis. Similique consectetur animi tempora amet illo quod.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Restrooms",
+            "Air Conditioning"
+        ],
+        "contact_number": "3262696814",
+        "contact_email": "magarkaira@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Taneja, Virk and Bajaj",
+        "base_price": 873.27,
+        "state": "West Bengal",
+        "city": "Rewa",
+        "address": "61/731, Rege Path, Kishanganj-431669",
+        "seating_capacity": 449,
+        "description": "Cumque doloribus sequi alias voluptatum. Iure non consequuntur vel laudantium praesentium. Cumque esse natus aliquam possimus molestias.",
+        "amenities": [
+            "Parking",
+            "Stage",
+            "Air Conditioning"
+        ],
+        "contact_number": "+918367562813",
+        "contact_email": "viswanathanrohan@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Ahluwalia PLC",
+        "base_price": 5717.43,
+        "state": "Manipur",
+        "city": "Jalgaon",
+        "address": "H.No. 851, Baral Ganj\nHospet 317596",
+        "seating_capacity": 407,
+        "description": "Perferendis laborum exercitationem excepturi perspiciatis. Mollitia inventore minus perferendis asperiores odio fugit earum.\nVeniam temporibus rerum recusandae. Maxime voluptatum nulla saepe.",
+        "amenities": [
+            "Sound System",
+            "Air Conditioning",
+            "Parking",
+            "Stage"
+        ],
+        "contact_number": "9586551767",
+        "contact_email": "subramaniamkimaya@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Sachdev Group",
+        "base_price": 2919.38,
+        "state": "West Bengal",
+        "city": "Dibrugarh",
+        "address": "67/338\nKala Marg\nRampur 340379",
+        "seating_capacity": 117,
+        "description": "Provident itaque sed. Veniam error autem facere itaque. Harum iure soluta ullam distinctio.\nTenetur libero nulla. Aspernatur id harum quisquam.",
+        "amenities": [
+            "Restrooms",
+            "Sound System",
+            "Stage",
+            "Air Conditioning"
+        ],
+        "contact_number": "9726377966",
+        "contact_email": "heersankar@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Shetty-Biswas",
+        "base_price": 707.35,
+        "state": "Tripura",
+        "city": "Malegaon",
+        "address": "80/22\nMahal Street, Ambattur 786666",
+        "seating_capacity": 444,
+        "description": "Architecto eveniet eum quam quibusdam.",
+        "amenities": [
+            "Parking",
+            "Air Conditioning",
+            "WiFi",
+            "Restrooms",
+            "Sound System",
+            "Stage"
+        ],
+        "contact_number": "6854250233",
+        "contact_email": "khalsadivij@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Ranganathan-Chander",
+        "base_price": 5080.1,
+        "state": "Himachal Pradesh",
+        "city": "Nellore",
+        "address": "59/436, Kamdar, Unnao 066216",
+        "seating_capacity": 247,
+        "description": "Eius sunt aliquid accusamus. Molestiae quaerat non doloremque.\nTotam eum culpa. Pariatur culpa repudiandae quisquam nam consequuntur eum. Quo neque at modi porro architecto.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "9214338602",
+        "contact_email": "zainshah@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Saran, De and Kurian",
+        "base_price": 4367.32,
+        "state": "Bihar",
+        "city": "Ahmedabad",
+        "address": "91/844\nGolla Road\nDeoghar 436007",
+        "seating_capacity": 414,
+        "description": "Asperiores eveniet eos rem recusandae pariatur. Aliquam est aut voluptatum dolore.",
+        "amenities": [
+            "Sound System",
+            "Restrooms",
+            "Air Conditioning"
+        ],
+        "contact_number": "09860732660",
+        "contact_email": "borraanahita@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Din, Raj and Warrior",
+        "base_price": 8976.74,
+        "state": "Tamil Nadu",
+        "city": "Bettiah",
+        "address": "501\nKalita Path\nBidar 599847",
+        "seating_capacity": 150,
+        "description": "Placeat ad quae itaque totam beatae. Labore quae occaecati id consectetur. Totam quisquam soluta sequi provident vel.",
+        "amenities": [
+            "Sound System",
+            "WiFi",
+            "Stage",
+            "Restrooms"
+        ],
+        "contact_number": "05901088988",
+        "contact_email": "elakshi01@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Shukla and Sons",
+        "base_price": 7038.4,
+        "state": "Maharashtra",
+        "city": "Nagpur",
+        "address": "08\nSant Marg, Bhusawal-199132",
+        "seating_capacity": 300,
+        "description": "Eius asperiores odit labore suscipit corporis fugit. Quia eum explicabo quisquam.",
+        "amenities": [
+            "WiFi",
+            "Sound System",
+            "Air Conditioning"
+        ],
+        "contact_number": "01669909123",
+        "contact_email": "basushayak@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Varughese, Lata and Goswami",
+        "base_price": 5950.77,
+        "state": "Arunachal Pradesh",
+        "city": "Shivpuri",
+        "address": "H.No. 712\nBir Road, Karimnagar-474777",
+        "seating_capacity": 109,
+        "description": "Molestiae voluptas aut officiis. Laborum reprehenderit earum tempora.\nIure nesciunt odio repellendus necessitatibus.",
+        "amenities": [
+            "Stage"
+        ],
+        "contact_number": "9861835516",
+        "contact_email": "dhanush88@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Sama, Varty and Bumb",
+        "base_price": 8835.89,
+        "state": "Kerala",
+        "city": "Farrukhabad",
+        "address": "H.No. 91\nSunder Street, Begusarai 052576",
+        "seating_capacity": 419,
+        "description": "Debitis autem iure itaque consequuntur placeat hic. Ratione laboriosam perspiciatis dicta officia.\nEsse hic placeat animi. Modi quam ad.",
+        "amenities": [
+            "Sound System",
+            "Air Conditioning",
+            "Restrooms",
+            "WiFi",
+            "Parking"
+        ],
+        "contact_number": "0164835052",
+        "contact_email": "xlata@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Dass, Luthra and Yadav",
+        "base_price": 8121.42,
+        "state": "Mizoram",
+        "city": "Udaipur",
+        "address": "81/744, Venkatesh Marg, Karaikudi-992453",
+        "seating_capacity": 400,
+        "description": "Voluptate consectetur consequuntur. Eaque aperiam deleniti voluptates placeat fugiat minima. Quam in sapiente quo ipsa cumque.\nVelit sit tenetur asperiores culpa alias. Incidunt rem quisquam id.",
+        "amenities": [
+            "Restrooms",
+            "Stage",
+            "Air Conditioning",
+            "Sound System",
+            "WiFi"
+        ],
+        "contact_number": "4010245607",
+        "contact_email": "mahikavala@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Mand, Dalal and Mahajan",
+        "base_price": 1027.5,
+        "state": "Tamil Nadu",
+        "city": "Karaikudi",
+        "address": "42/34\nAurora Street, Baranagar 484498",
+        "seating_capacity": 399,
+        "description": "Sed ipsa maxime soluta. Cumque perspiciatis distinctio ipsum iure omnis. Laudantium quia iusto.\nEius facilis maiores quis. Iste deserunt vel aliquam eius cupiditate vero.",
+        "amenities": [
+            "Air Conditioning",
+            "WiFi",
+            "Restrooms",
+            "Stage",
+            "Parking",
+            "Sound System"
+        ],
+        "contact_number": "05316901691",
+        "contact_email": "jayant89@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Sankar, Golla and Ray",
+        "base_price": 7672.51,
+        "state": "Punjab",
+        "city": "Anand",
+        "address": "79/232\nSen Zila\nPimpri-Chinchwad-462351",
+        "seating_capacity": 370,
+        "description": "Delectus deserunt eos voluptatibus. Minus vel maxime maxime.",
+        "amenities": [
+            "Stage",
+            "Sound System"
+        ],
+        "contact_number": "+917229233337",
+        "contact_email": "kdeol@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Talwar, Arora and Bava",
+        "base_price": 1777.22,
+        "state": "Odisha",
+        "city": "Jehanabad",
+        "address": "H.No. 192\nSehgal Circle\nRewa-581929",
+        "seating_capacity": 310,
+        "description": "Eum minus magnam a reprehenderit. Perspiciatis quidem eveniet quasi quaerat. Alias ab facere modi nulla error velit.\nBlanditiis recusandae incidunt sunt eum fuga. Placeat eius quos excepturi enim.",
+        "amenities": [
+            "Stage",
+            "WiFi"
+        ],
+        "contact_number": "05179019134",
+        "contact_email": "zaina80@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Sastry-Sehgal",
+        "base_price": 1115.88,
+        "state": "Telangana",
+        "city": "Srikakulam",
+        "address": "26/46\nSaxena, Eluru-561470",
+        "seating_capacity": 407,
+        "description": "Rem asperiores repellendus sint neque nobis voluptate. Quibusdam quo assumenda sunt magni.\nNisi atque quas consectetur. Consectetur debitis omnis.",
+        "amenities": [
+            "Stage",
+            "Parking",
+            "Sound System",
+            "Restrooms",
+            "Air Conditioning"
+        ],
+        "contact_number": "+918851393261",
+        "contact_email": "tushar32@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Garde-Balan",
+        "base_price": 9454.58,
+        "state": "Manipur",
+        "city": "Aurangabad",
+        "address": "H.No. 788, Wason Nagar, Mangalore-337250",
+        "seating_capacity": 284,
+        "description": "Saepe impedit accusamus dicta. Illum numquam ut repellat ipsum.",
+        "amenities": [
+            "Parking"
+        ],
+        "contact_number": "9350457807",
+        "contact_email": "uthkarshdhawan@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Sood PLC",
+        "base_price": 9513.67,
+        "state": "Telangana",
+        "city": "Srinagar",
+        "address": "69/28, Luthra Nagar\nDehradun-052017",
+        "seating_capacity": 465,
+        "description": "Enim impedit consequatur in tempora magnam repudiandae commodi. Delectus asperiores numquam nesciunt excepturi iusto.\nNemo minima temporibus aspernatur. Distinctio facilis tempore quod eos voluptate.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Air Conditioning",
+            "Stage",
+            "Sound System",
+            "Restrooms"
+        ],
+        "contact_number": "06673209064",
+        "contact_email": "basakshanaya@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Raj and Sons",
+        "base_price": 5734.55,
+        "state": "Gujarat",
+        "city": "Nashik",
+        "address": "H.No. 38, Mammen Chowk, Asansol 723977",
+        "seating_capacity": 428,
+        "description": "Occaecati at voluptatem id culpa tempore quod ratione. Cum quia laboriosam architecto libero earum ea.",
+        "amenities": [
+            "Restrooms",
+            "Parking",
+            "Sound System",
+            "WiFi",
+            "Stage",
+            "Air Conditioning"
+        ],
+        "contact_number": "07762299397",
+        "contact_email": "balayfaiyaz@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Krishna, Chatterjee and Arya",
+        "base_price": 1136.12,
+        "state": "Arunachal Pradesh",
+        "city": "Fatehpur",
+        "address": "H.No. 530\nGupta Marg, Indore-674317",
+        "seating_capacity": 150,
+        "description": "Sint vel voluptatum tempora accusantium. Incidunt sed nesciunt architecto maiores voluptas.\nNesciunt temporibus doloribus enim quia quisquam est. Tempore corrupti aliquam nam similique enim.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Air Conditioning",
+            "Stage"
+        ],
+        "contact_number": "6792845457",
+        "contact_email": "zain33@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kapadia-Golla",
+        "base_price": 3494.16,
+        "state": "Tamil Nadu",
+        "city": "Jhansi",
+        "address": "24/56, Sama Street\nAmbala 795684",
+        "seating_capacity": 298,
+        "description": "Dolor consequuntur quaerat sequi maiores. Necessitatibus odit quasi ratione repellat necessitatibus libero.",
+        "amenities": [
+            "Air Conditioning"
+        ],
+        "contact_number": "0166904025",
+        "contact_email": "advik19@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Goel, Agate and Lad",
+        "base_price": 8686.9,
+        "state": "Telangana",
+        "city": "Katihar",
+        "address": "H.No. 398, Gupta Road, Tumkur-618541",
+        "seating_capacity": 165,
+        "description": "Labore error tenetur omnis quos nesciunt natus. Repellat modi sequi quia tenetur rerum facilis.",
+        "amenities": [
+            "Sound System",
+            "Restrooms",
+            "Stage",
+            "Parking"
+        ],
+        "contact_number": "04844103606",
+        "contact_email": "gjha@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Mand, Sem and Manne",
+        "base_price": 7718.36,
+        "state": "Madhya Pradesh",
+        "city": "Pallavaram",
+        "address": "H.No. 87, Ram Zila\nRaebareli-796004",
+        "seating_capacity": 467,
+        "description": "Dignissimos ducimus rerum labore. Modi dolore magni vitae similique doloribus praesentium iste. Quam rem necessitatibus totam saepe.",
+        "amenities": [
+            "Stage",
+            "WiFi",
+            "Parking"
+        ],
+        "contact_number": "05002074838",
+        "contact_email": "warriorseher@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Iyengar, Mammen and Gopal",
+        "base_price": 8218.02,
+        "state": "Nagaland",
+        "city": "Panvel",
+        "address": "H.No. 98\nThakkar Nagar\nLoni 112550",
+        "seating_capacity": 358,
+        "description": "Error quidem laborum quisquam. Laboriosam nesciunt repellendus rem. Consectetur sapiente illum.",
+        "amenities": [
+            "Parking",
+            "WiFi",
+            "Stage",
+            "Sound System",
+            "Restrooms",
+            "Air Conditioning"
+        ],
+        "contact_number": "+911257185008",
+        "contact_email": "lakshay48@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Issac Ltd",
+        "base_price": 7863.67,
+        "state": "Karnataka",
+        "city": "Jammu",
+        "address": "11/984\nSetty Circle, Shimoga-386731",
+        "seating_capacity": 315,
+        "description": "Officia dolores aspernatur repellat ut unde a. Quaerat ut reiciendis vel neque doloribus cum.\nUllam voluptatem omnis nobis unde veniam. Eos cum animi explicabo quidem non occaecati.",
+        "amenities": [
+            "Air Conditioning",
+            "Sound System",
+            "Parking",
+            "WiFi"
+        ],
+        "contact_number": "+911144825402",
+        "contact_email": "royhridaan@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Venkataraman, Goda and Gola",
+        "base_price": 1665.01,
+        "state": "Jharkhand",
+        "city": "Mysore",
+        "address": "372, Chaudhari Path, Dewas 527276",
+        "seating_capacity": 192,
+        "description": "Commodi exercitationem incidunt perspiciatis vitae blanditiis.\nUt excepturi facere commodi at. Vero est doloremque labore cupiditate.",
+        "amenities": [
+            "Sound System",
+            "Air Conditioning",
+            "Stage"
+        ],
+        "contact_number": "+910095055196",
+        "contact_email": "somananika@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Iyer-Sanghvi",
+        "base_price": 7132.3,
+        "state": "Meghalaya",
+        "city": "Anantapuram",
+        "address": "97/86\nSodhi Road\nAkola 134672",
+        "seating_capacity": 416,
+        "description": "Voluptate impedit at tempore.\nNatus atque facilis soluta in aspernatur ea. Sint tenetur nemo ducimus ab. Culpa possimus perspiciatis ullam.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "+915029986524",
+        "contact_email": "toorneelofar@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kohli, Dhar and Barman",
+        "base_price": 9728.55,
+        "state": "Karnataka",
+        "city": "Avadi",
+        "address": "60/10, Madan Chowk, Ongole-778083",
+        "seating_capacity": 439,
+        "description": "Repellat at culpa ullam. Magnam fugiat iure sit reprehenderit nobis. Cupiditate velit molestias esse illo beatae inventore.\nSit delectus voluptatibus incidunt tempore at.",
+        "amenities": [
+            "Restrooms",
+            "Parking",
+            "Air Conditioning",
+            "Stage",
+            "Sound System",
+            "WiFi"
+        ],
+        "contact_number": "+918153137427",
+        "contact_email": "swaminathanmadhav@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Goyal, Ramachandran and Soni",
+        "base_price": 8007.96,
+        "state": "West Bengal",
+        "city": "Siwan",
+        "address": "H.No. 734, Luthra Marg\nSolapur 696556",
+        "seating_capacity": 244,
+        "description": "Delectus laudantium libero id laborum earum maiores. At velit voluptate nemo. Sunt tenetur corporis dolorum sequi sunt corrupti.\nQuis nisi officiis. A veniam doloribus numquam itaque ex.",
+        "amenities": [
+            "Stage",
+            "WiFi",
+            "Restrooms",
+            "Sound System",
+            "Parking"
+        ],
+        "contact_number": "09505702793",
+        "contact_email": "devimadhav@example.net",
+        "image": null
+    },
+    {
+        "venue_name": "Chad and Sons",
+        "base_price": 6548.49,
+        "state": "Telangana",
+        "city": "Gwalior",
+        "address": "260\nShah Ganj, Hosur-597572",
+        "seating_capacity": 434,
+        "description": "Ducimus ea vitae eligendi voluptatem. Optio numquam fugiat officia corporis est. Distinctio quam ducimus corporis fugit dignissimos laudantium quam.",
+        "amenities": [
+            "WiFi",
+            "Sound System"
+        ],
+        "contact_number": "+919121723702",
+        "contact_email": "rwali@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Sagar PLC",
+        "base_price": 6546.6,
+        "state": "Sikkim",
+        "city": "Phagwara",
+        "address": "165\nGrewal, Avadi-960290",
+        "seating_capacity": 96,
+        "description": "Ad voluptatem repellat quod quas iure doloremque. Magni dolorem ducimus.\nBeatae rerum quaerat. Sint perferendis laborum ipsum et eius aliquid. Tenetur dolorem non tempora.",
+        "amenities": [
+            "Air Conditioning",
+            "Parking",
+            "Stage"
+        ],
+        "contact_number": "06252154876",
+        "contact_email": "rajagopalandivit@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Chander, Balay and Ratti",
+        "base_price": 5602.44,
+        "state": "West Bengal",
+        "city": "Nadiad",
+        "address": "54/343\nKakar Ganj, Haridwar-958159",
+        "seating_capacity": 417,
+        "description": "Autem mollitia dolorum qui ea. Voluptatum distinctio facilis consectetur iusto error.",
+        "amenities": [
+            "Air Conditioning",
+            "Restrooms",
+            "Parking",
+            "Stage",
+            "WiFi",
+            "Sound System"
+        ],
+        "contact_number": "08357410037",
+        "contact_email": "bhaktaritvik@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Yohannan Ltd",
+        "base_price": 7061.16,
+        "state": "Uttarakhand",
+        "city": "Pondicherry",
+        "address": "14/57\nSampath Zila\nRaiganj 131312",
+        "seating_capacity": 368,
+        "description": "Explicabo quod qui sapiente quia necessitatibus. Fugit commodi ducimus repellat repudiandae. Velit qui dicta quam a maiores.",
+        "amenities": [
+            "Parking",
+            "Restrooms",
+            "Air Conditioning",
+            "WiFi",
+            "Stage"
+        ],
+        "contact_number": "+912225418668",
+        "contact_email": "inaaya-82@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Tailor, Joshi and Goda",
+        "base_price": 2788.72,
+        "state": "Chhattisgarh",
+        "city": "Bangalore",
+        "address": "68/26\nTrivedi Path\nAdoni-821733",
+        "seating_capacity": 218,
+        "description": "Sunt cumque enim quos. Labore excepturi deserunt culpa rerum repudiandae animi.\nIn sint qui facilis. Perferendis iste beatae magni. Repudiandae vel tempora placeat assumenda nam.",
+        "amenities": [
+            "Parking",
+            "Air Conditioning",
+            "WiFi",
+            "Restrooms"
+        ],
+        "contact_number": "07549763631",
+        "contact_email": "uthkarshkaur@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kar, Bath and Babu",
+        "base_price": 511.62,
+        "state": "Maharashtra",
+        "city": "Shimla",
+        "address": "90/84\nKuruvilla Road\nVaranasi 871807",
+        "seating_capacity": 267,
+        "description": "Optio laudantium a veniam impedit esse facere. Magni consequatur veniam accusamus sapiente cumque. Id dolore et ipsam rerum voluptatem ad.\nNatus velit quisquam minima. Facilis repellat enim nostrum.",
+        "amenities": [
+            "Parking",
+            "Restrooms"
+        ],
+        "contact_number": "09926555323",
+        "contact_email": "kabirsrivastava@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Kibe, Hans and De",
+        "base_price": 7018.04,
+        "state": "Mizoram",
+        "city": "Sri Ganganagar",
+        "address": "13/61, Konda Circle, Karaikudi-518559",
+        "seating_capacity": 168,
+        "description": "Earum harum aspernatur rerum consectetur laborum. Ullam minima recusandae recusandae. Id assumenda atque ipsam.",
+        "amenities": [
+            "WiFi",
+            "Parking",
+            "Stage"
+        ],
+        "contact_number": "+911710817949",
+        "contact_email": "dhanukgopal@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Chandra PLC",
+        "base_price": 1046.02,
+        "state": "Meghalaya",
+        "city": "Ludhiana",
+        "address": "99/54\nMahal Street\nAgra 999529",
+        "seating_capacity": 436,
+        "description": "Pariatur recusandae veniam. Aliquid magnam voluptate rerum dolor deserunt.\nOfficia eligendi vitae animi. Tempore aut laboriosam molestias rem quis.",
+        "amenities": [
+            "Sound System",
+            "Restrooms",
+            "WiFi"
+        ],
+        "contact_number": "1570007985",
+        "contact_email": "armaan54@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Brahmbhatt-Savant",
+        "base_price": 9940.83,
+        "state": "Kerala",
+        "city": "Eluru",
+        "address": "H.No. 053\nGuha Nagar\nHaldia 948629",
+        "seating_capacity": 370,
+        "description": "Commodi itaque veniam perspiciatis rem. Ex tempora quibusdam error magni assumenda. Dolor commodi vel quibusdam.\nAperiam cum eum numquam nisi porro. Ut omnis laboriosam culpa magnam ipsa.",
+        "amenities": [
+            "Parking",
+            "Sound System",
+            "Stage",
+            "WiFi",
+            "Air Conditioning",
+            "Restrooms"
+        ],
+        "contact_number": "1641606293",
+        "contact_email": "cbatta@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Sandal Group",
+        "base_price": 6356.66,
+        "state": "Odisha",
+        "city": "Srinagar",
+        "address": "H.No. 90\nBuch Nagar, Davanagere 864395",
+        "seating_capacity": 391,
+        "description": "A nobis tempore ipsa. Perferendis praesentium tempora quidem ab. Nobis exercitationem dignissimos earum similique ut. Aperiam porro officiis aliquid reprehenderit natus facilis.",
+        "amenities": [
+            "Restrooms",
+            "WiFi"
+        ],
+        "contact_number": "+916017605395",
+        "contact_email": "ubaral@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Dani-Ahluwalia",
+        "base_price": 2751.92,
+        "state": "Madhya Pradesh",
+        "city": "Thiruvananthapuram",
+        "address": "89, Chandra Ganj\nMeerut-064659",
+        "seating_capacity": 214,
+        "description": "Vero facilis odio fugiat magni ipsa dignissimos expedita. Eum iure alias odit omnis.\nEum fugit deserunt ipsam assumenda ea. Maiores magnam eligendi nesciunt delectus repellat fugit exercitationem.",
+        "amenities": [
+            "Air Conditioning",
+            "Sound System",
+            "Stage"
+        ],
+        "contact_number": "+913564318854",
+        "contact_email": "bavasamiha@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Hari, Mannan and Ranganathan",
+        "base_price": 2882.53,
+        "state": "Meghalaya",
+        "city": "Gwalior",
+        "address": "H.No. 849\nReddy Path\nMehsana-362773",
+        "seating_capacity": 192,
+        "description": "Minima sunt totam qui quis. Veniam nobis facere nemo voluptatem ullam. Quasi animi fugiat laudantium placeat quisquam officiis.",
+        "amenities": [
+            "Stage",
+            "WiFi",
+            "Sound System",
+            "Parking",
+            "Restrooms"
+        ],
+        "contact_number": "+911473691986",
+        "contact_email": "uchandra@example.org",
+        "image": null
+    },
+    {
+        "venue_name": "Karnik, Mani and Kota",
+        "base_price": 3300.86,
+        "state": "Meghalaya",
+        "city": "Morena",
+        "address": "70\nAtwal Zila\nAmbarnath-841869",
+        "seating_capacity": 235,
+        "description": "In quia odio pariatur dignissimos. Illo excepturi assumenda quod neque qui ratione. Illo sit atque facilis deleniti dignissimos. Sequi quidem omnis sit nostrum quo.",
+        "amenities": [
+            "Air Conditioning",
+            "Parking",
+            "Restrooms",
+            "WiFi",
+            "Stage",
+            "Sound System"
+        ],
+        "contact_number": "7690119602",
+        "contact_email": "eramesh@example.com",
+        "image": null
+    },
+    {
+        "venue_name": "Chaudhari-Krishnamurthy",
+        "base_price": 6930.66,
+        "state": "West Bengal",
+        "city": "Bhimavaram",
+        "address": "H.No. 73, Behl\nGaya 471849",
+        "seating_capacity": 377,
+        "description": "Consequatur alias distinctio porro labore eos. Temporibus ipsam facilis doloremque quae. Sapiente dignissimos vitae laborum earum nesciunt eaque.",
+        "amenities": [
+            "Restrooms"
+        ],
+        "contact_number": "8997377749",
+        "contact_email": "ngaba@example.net",
+        "image": null
+    }
+]

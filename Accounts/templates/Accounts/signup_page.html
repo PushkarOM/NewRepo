@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    {% load socialaccount %}
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="{% static 'Accounts/CSS/signup_CS.css'%}" />
+    </head>
+    <body>
+        <div class="navbar">
+            <img id="navbar-logo" src="{% static 'Accounts/IMAGES/ayojan-logo1.png'%}" alt="logo">
+        </div>
+        <div class="middle">
+            <div class="signup-div">
+                <img id="signup-div-logo" src="{% static 'Accounts/IMAGES/ayojan-logo1.png'%}" alt="logo">
+                <div class="signup-form-div">
+                    {% if messages %}
+                        <div>
+                            {% for message in messages %}
+                                <p>{{ message }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                  <form action="{% provider_login_url 'google' %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" id="google-login-button"><img id="google-logo" src="{% static 'Accounts/IMAGES/icons8-google-logo-48.png'%}"><span id="google-login-text">Login</span></button>
+                  </form>
+                  <span>-----Or-----</span>
+                  <form class="signup-form" method="POST">
+                    {% csrf_token %}
+                    <input type="text" name="USERNAME" id="USERNAME" placeholder="USERNAME">
+                    <input type="EMAIL" name="EMAIL" id="EMAIL" placeholder="EMAIL">
+                    <input type="text" name="FIRST_NAME" id="FIRST-NAME" placeholder="FIRST NAME">
+                    <input type="text" name="LAST_NAME" id="LAST-NAME" placeholder="LAST NAME">
+                    <input type="password" name="PASSWORD" id="PASSWORD" placeholder="PASSWORD">
+                    <input type="password" name="CONFIRM_PASSWORD" id="PASSWORD" placeholder="CONFIRM PASSWORD">
+                    <button id="submit-button" type="submit">Signup</button>
+                  </form>
+                  <div class="login-div">
+                    <span>Already Have an account</span>
+                    <a href="{% url 'Accounts:login_view'%}"><button id="google-login-button">Login</button></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </body>        
+</html>

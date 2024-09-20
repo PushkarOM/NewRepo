@@ -1,0 +1,88 @@
+{% extends 'Booking/common.html' %}
+
+{% load static %}
+{% block content %}
+<header>
+    
+    <div class="search-container">
+        <div class="search-by-type">
+            <form id="search-form" method="GET">
+                <div class="search-bar">
+                    <input type="text" id="search-bar-professionals" name="search" placeholder="Search for professionals..." autocomplete="off">
+                    <button type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M792-120.67 532.67-380q-30 25.33-69.64 39.67Q423.39-326 378.67-326q-108.44 0-183.56-75.17Q120-476.33 120-583.33t75.17-182.17q75.16-75.17 182.5-75.17 107.33 0 182.16 75.17 74.84 75.17 74.84 182.27 0 43.23-14 82.9-14 39.66-40.67 73l260 258.66-48 48Zm-414-272q79.17 0 134.58-55.83Q568-504.33 568-583.33q0-79-55.42-134.84Q457.17-774 378-774q-79.72 0-135.53 55.83-55.8 55.84-55.8 134.84t55.8 134.83q55.81 55.83 135.53 55.83Z"/></svg>
+                    </button>
+                </div>
+            </form>
+            <button id="openFilterMenuBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M286.67-613.33V-680H840v66.67H286.67Zm0 166.66v-66.66H840v66.66H286.67Zm0 166.67v-66.67H840V-280H286.67ZM153.33-613.33q-13.66 0-23.5-9.84Q120-633 120-647q0-14 9.83-23.5 9.84-9.5 23.84-9.5t23.5 9.58q9.5 9.59 9.5 23.75 0 13.67-9.59 23.5-9.58 9.84-23.75 9.84Zm0 166.66q-13.66 0-23.5-9.83-9.83-9.83-9.83-23.83 0-14 9.83-23.5 9.84-9.5 23.84-9.5t23.5 9.58q9.5 9.58 9.5 23.75 0 13.67-9.59 23.5-9.58 9.83-23.75 9.83Zm0 166.67q-13.66 0-23.5-9.83-9.83-9.84-9.83-23.84t9.83-23.5q9.84-9.5 23.84-9.5t23.5 9.59q9.5 9.58 9.5 23.75 0 13.66-9.59 23.5-9.58 9.83-23.75 9.83Z"/></svg></button>
+            </button>
+            <div id="filterMenu" class="search-by-filter"> 
+                <a href="javascript:void(0)" class="closebtn" id="closeFilterMenuBtn">&times;</a>
+                <form id="filter-form" name="filter" method="GET">
+                    <div class="filters">
+                        <h3>Filters</h3>
+                        <div class="filter">
+                            <label for="baseprice">Base Price:</label>
+                            <input type="number" id="baseprice" name="baseprice" placeholder="Enter maximum price">
+                        </div>
+                        <div class="filter">
+                            <label for="city">City:</label>
+                            <input type="text" id="city" name="city" placeholder="Enter city">
+                        </div>
+                        <div class="filter">
+                            <label for="state">State:</label>
+                            <input type="text" id="state" name="state" placeholder="Enter state">
+                        </div>
+                    </div>
+                    <button type="submit">Apply Filters</button>
+                </form>
+            </div>
+            
+    </div>
+</header>
+<section class="prof-list">
+    {% for professional in page_obj %}
+    <div class="prof-item">
+        <div class="prof-info">
+            <div class="prof-img">
+                <img  id="img" src="..{{ professional.image.url }}" alt="venue">
+            </div>
+            <a href="{% url 'Booking:professionalspage' professional.id %}">
+                <h2>{{ professional.name }}</h2>
+                <p>{{ professional.profession }}</p>
+                <p>Price: {{ professional.price_range }}</p>
+            </a>
+            
+            {% if user.is_authenticated %}
+                <a href="{% url 'Booking:professionalsbookingform' professional.id %}"><button>Book Now</button></a>
+            {% else %}
+                <a href="{% url 'Accounts:login_view' %}"><button>login to Book</button></a>
+            {% endif %}
+
+            <a href="{% url 'Booking:professionalspage' professional.id %}"><button>View</button></a>
+            <a href="{% url 'Booking:professionalsbookinglistadder' professional.id %}"><button>Add to Booking List</button></a>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo;</a>
+            <a href="?page={{ page_obj.previous_page_number }}"> < </a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}"> > </a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">&raquo;</a>
+        {% endif %}
+    </span>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,42 @@
+{% extends 'Accounts/profile_view.html' %}
+{% load static %}
+{% block content %}
+
+<div class="personal-details">
+    <div>
+        <span>Username :</span>
+        <div id="username">
+            {{user.username}}
+            <a href="{% url 'Accounts:change_name' %}?field=changeinfo"><img id="pencil" src="{% static 'Accounts/IMAGES/pencil.jpg'%}" alt="edit"></a>
+        </div>
+
+    </div>
+    <div id="name">
+        <div>
+            <span>First Name :</span>
+            <div id="username">
+                {{user.first_name}}
+                <a href="{% url 'Accounts:change_name' %}?field=changeinfo"><img id="pencil" src="{% static 'Accounts/IMAGES/pencil.jpg'%}" alt="edit"></a>
+            </div>
+        </div>
+        <div>
+            <span>Last Name :</span>
+            <div id="username">
+                {{user.last_name}}
+                <a href="{% url 'Accounts:change_name' %}?field=changeinfo"><img id="pencil" src="{% static 'Accounts/IMAGES/pencil.jpg'%}" alt="edit"></a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <span>Email :</span>
+        <div id="username">
+            {{user.email}}
+            <a href="{% url 'Accounts:change_name' %}?field=changeinfo"><img id="pencil" src="{% static 'Accounts/IMAGES/pencil.jpg'%}" alt="edit"></a>
+        </div>
+    </div>
+    <div id="username">
+        <a href="{% url 'Accounts:change_name' %}?field=changepass"><span>Change Password</span></a>
+    </div>
+</div>
+
+{% endblock content %}
