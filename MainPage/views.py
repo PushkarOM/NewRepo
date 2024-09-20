@@ -8,5 +8,5 @@ def landing_view(request):
         '..\\media\\venue_images\\Arora-Gandhi_22.jpg',
         '..\\media\\venue_images\\Bal_Baral_and_Majumdar_17.jpg',
     ]
-    return render(request, 'Mainpage/landingpage.html', {'images': image_list})
+    return render(request, 'Mainpage\\landingpage.html', {'images': image_list})
 
