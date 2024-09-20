@@ -7,13 +7,7 @@
             "use" : "@vercel/python",
             "config" : { "maxLambdaSize" : "15mb", "runtime" : "python3.12.3"}
         },
-        {
-            "src" : "build_files.sh",
-            "use" : "@vercel/static-build",
-            "config" : {
-                "distDir" : "staticfiles_build"
-            }
-        },{ 
+        { 
             "src": "manage.py", 
             "use": "@vercel/python" 
         }
@@ -30,7 +24,7 @@
         },
         { 
             "src": "/(.*)", 
-            "dest": "manage.py" 
+            "dest": "/manage.py" 
         }
     ]
 }
