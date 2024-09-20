@@ -1,0 +1,80 @@
+{% extends 'Booking/common.html' %}
+{% load static %}
+{% block content %}
+    <div class="body-venuepage">
+        <main>
+            <section id="venuepage-list">
+                <div class="venuepage-item">
+                    <div class="venuepage-img">
+                        <img  id="page-image" src="..{{ venue.image.url }}" alt="venue">
+                    </div>
+                    <div class="venuepage-info">
+                        <h2>{{venue.venue_name}}</h2>
+                        <p>Location: {{venue.city}}, {{venue.state}}, {{venue.address}}</p>
+                        <p>Description: {{venue.description|slice:":30"}}</p>
+                        <p>Price: {{venue.base_price}}</p>
+    
+                        {% if user.is_authenticated %}
+                            <a href="{% url 'Booking:booking_form' venue.id %}"><button>Book Now</button></a>
+                        {% else %}
+                            <a href="{% url 'Accounts:login_view' %}"><button>login to Book</button></a>
+                        {% endif %}
+                    </div>
+                  
+                    <div class="calendar">
+                        <section class="calendar-section">
+                            <div id="calendar"></div>
+                        </section>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <div class="bottom-div">
+
+            <div class="ratings">
+                <section class="venue-review">
+                    {% for review in reviews %}
+                    <div class="reviews">
+                        <div>Rating : {{review.rating}}/5</div>
+                        <div>User : {{review.user.username}}</div>
+                        <div>Comment : {{review.comment}}</div>    
+                    </div>
+                    {% endfor %}
+                </section>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!--Full Calender CSS-->
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css' rel='stylesheet' />
+    <!-- Full Calendar JS -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
+    
+    <!--Below is the script to change the way specific dates look in calender on the basis of them being booked or not-->
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                events: [
+                        //{% for booking in bookings %}                    
+                        {
+                            title: 'Booked',
+                            start: '{{ booking.start_date|date:"Y-m-d" }}',
+                            end: '{{ booking.end_date|date:"Y-m-d" }}',
+                            color : 'red',
+                            display: 'background'
+                        },
+                       //{% endfor %}
+                ],
+            });
+            calendar.render();
+        });
+
+        
+    </script>
+    
+{% endblock content %}

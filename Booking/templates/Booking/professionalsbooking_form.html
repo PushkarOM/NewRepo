@@ -1,0 +1,24 @@
+{% extends 'Booking/common.html' %}
+
+{% block content %}
+
+
+        <form class="booking-forms" method="POST">
+            <h1>{{ professional.name }} <b>{{ professional.profession }}</b></h1>
+            
+            <h1>Booking Form</h1>
+            {% csrf_token %}
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required><br>
+        
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" required><br>
+        
+            <label for="event_type">Event Type:</label>
+            <input type="text" id="event_type" name="event_type" required><br>
+            <button type="submit">Submit</button>
+        </form>
+        
+        
+    
+{% endblock content %}

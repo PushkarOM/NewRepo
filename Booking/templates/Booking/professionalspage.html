@@ -1,0 +1,81 @@
+{% extends 'Booking/common.html' %}
+{% load static %}
+{% block content %}
+<div class="body-professional">
+    <main>
+        <section id="prof-list">
+            <div class="profpage-item">
+                <div class="profpage-img">
+                    <img  id="page-image" src="..{{ professional.image.url }}" alt="venue">
+                </div>
+                <div class="profpage-info">
+                    <h2>{{ professional.name }}</h2>
+                    <p>{{ professional.profession }}</p>
+                    <p>Location: {{ professional.city }}, {{ professional.state }}, {{ professional.address }}</p>
+                    <p>About their work: <a href="{{ professional.portfolio }}">Portfolio Site</a></p>
+                    <p>Price: {{ professional.price_range }}</p>
+
+                    {% if user.is_authenticated %}
+                        <a href="{% url 'Booking:professionalsbookingform' professional.id %}"><button>Book Now</button></a>
+                    {% else %}
+                        <a href="{% url 'Accounts:login_view' %}"><button>login to Book</button></a>
+                    {% endif %}
+                </div>
+                <div class="calendar">
+                    <section class="calendar-section">
+                        <div id="calendar"></div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="bottom-div">
+        <div class="rating">
+            <section class="professional-review">
+                {% for review in reviews %}
+                <div class="reviews">
+                    <div>Rating : {{review.rating}}/5</div>
+                    <div>User : {{review.user.username}}</div>
+                    <div>Comment : {{review.comment}}</div>
+                </div>
+
+                
+                {% endfor %}
+            </section>
+        </div>
+    </div>
+    
+    
+    
+</div>
+    <!--Full Calender CSS-->
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css' rel='stylesheet' />
+    <!-- Full Calendar JS -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
+    
+    <!--Below is the script to change the way specific dates look in calender on the basis of them being booked or not-->
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                events: [
+                        //{% for booking in bookings %}                    
+                        {
+                            title: 'Booked',
+                            start: '{{ booking.start_date|date:"Y-m-d" }}',
+                            end: '{{ booking.end_date|date:"Y-m-d" }}',
+                            color : 'red',
+                            display: 'background'
+                        },
+                       //{% endfor %}
+                ],
+            });
+            calendar.render();
+        });
+
+        
+    </script>
+    
+{% endblock content %}
