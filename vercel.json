@@ -30,7 +30,7 @@
         },
         { 
             "src": "/(.*)", 
-            "dest": "/manage.py" 
+            "dest": "manage.py" 
         }
     ]
 }
