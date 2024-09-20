@@ -1,0 +1,685 @@
+* {
+    font-family: 'Trebuchet MS','Helvetica',monospace;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+body {
+    background-size: cover; /* Ensure the image covers the entire width */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+/* {% load static %}*/
+.navbar {
+    background-color: #f1cfcb;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navbar-logo {
+    width: 70px;
+    height: 70px;
+    padding: 10px 30px;
+}
+
+.left-navbar {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: baseline;
+    align-items: center;
+    margin-right: auto;
+}
+
+.right-navbar {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.right-navbar > div > a > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.nav-btn:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#profile-btn{
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 0px;
+    border-radius: 12px;
+}
+
+#login-btn{
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+#cart-btn{
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+/*Styling for bookingpage.html*/
+.venue-info > a > button{
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px;
+}
+.venue-info > a > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.search-container{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #f1cfcb;
+    border: 0px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+.search-container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-by-filter{
+    gap: 10px;
+}
+
+
+.search-bar{
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+#search-bar-professionals,#search-bar{
+    border : 0px;
+    padding: 10px;
+
+}
+
+.search-bar > button{
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.search-bar > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+#openFilterMenuBtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 4px;
+    border: 0px;
+    border-radius: 8px;
+    margin-left:10px ;
+}
+#openFilterMenuBtn:hover {
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.search-by-filter {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color:  #725f5d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+.search-by-filter a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.search-by-filter a:hover {
+    color: #f1f1f1;
+}
+
+.search-by-filter .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.search-by-filter h3 {
+    padding: 0 25px;
+    font-size: 24px;
+}
+
+.search-by-filter form {
+    padding: 20px;
+}
+
+.search-by-filter .filter {
+    margin-bottom: 15px;
+}
+
+.search-by-filter label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.search-by-filter input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-by-filter button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f1cfcb;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-by-filter button[type="submit"]:hover {
+    padding: 4px;
+    background-color: #45a049;
+}
+
+
+.venue-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.venue-item{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    width : 350px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 18px;
+
+}
+.venue-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+}
+
+
+
+.venue-info{
+    margin-right : auto;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.venue-img{
+    width: 200px;
+    height: 200px;
+}
+
+#img{
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 18px;
+
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+/*bookingpage_professional.html*/
+.body-professional{
+    border : 2px solid black;
+    border-radius: 14px;
+}
+
+.prof-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.prof-item{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    width : 350px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 18px;
+
+}
+
+.prof-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+}
+
+.profpage-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.profpage-img{
+    margin: 20px;
+}
+
+#page-image{
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+
+.prof-info{
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.profpage-info{
+    margin-top: 10px;
+    margin-left : 30px;
+    margin-right: 80px;
+    padding: 10px;
+    padding-left: 15px;
+
+}
+
+
+
+
+.bottom-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calendar{
+    width: 500px;
+    height: 400px;
+}
+#calendar{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+}
+.calendar > h2{
+    margin-left: 80px;
+}
+
+.calendar-section{
+    padding: 15px;
+    margin-left: auto;
+}
+
+.ratings{
+    margin-left: 20px;
+    padding: 10px;
+    width : auto;
+}
+
+.professional-review{
+    background-color: #f4b0a9;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 550px;
+    border-radius: 8px;
+    margin:  25px;
+    ::-webkit-scrollbar {
+        display: hidden;
+    }
+}
+
+.professional-review:hover{
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+}
+
+
+.reviews{
+    padding: 14px;
+}
+
+.reviews:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+
+}
+
+.profpage-info > a > button{
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.profpage-info > a > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+}
+
+.prof-info > a > button{
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.prof-info > a > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+}
+
+
+
+/*veneupage.html*/
+.body-venuepage{
+    border : 2px solid black;
+    border-radius: 14px;
+}
+
+.venuepage-item{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+    border: 0px;
+    border-radius: 18px;
+
+}
+
+
+.venuepage-info{
+    margin-top: 10px;
+    margin-left : 30px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+
+.bottom-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+.calendar{
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+#calendar-section{
+    padding: 15px;
+    margin-right: auto;
+}
+
+.ratings{
+    margin-left: 20px;
+    padding: 10px;
+    width : auto;
+}
+
+.venue-review{
+    background-color: #f4b0a9;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 550px;
+    border-radius: 8px;
+    margin:  25px;
+    ::-webkit-scrollbar {
+        display: hidden;
+    }
+}
+
+.venue-review:hover{
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+}
+
+
+.reviews{
+    padding: 14px;
+}
+
+.reviews:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+
+}
+
+.venuepage-info > a > button{
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.venuepage-info > a > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f4b0a9;
+}
+
+
+
+/**bookingform.html*/
+/*professionalbooking-form.html*/
+.booking-forms{
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4b0a9;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+}
+.booking-forms > input{
+    width: 70%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.booking-forms > textarea{
+    width: 70%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.booking-forms > button{
+    border: 0px;
+    border-radius: 4px;
+    padding: 12px;
+}
+.booking-forms > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*cartpage.html*/
+.cart{
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4b0a9;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.cart > form > button {
+    border: 0px;
+    border-radius: 4px;
+    padding: 12px;
+}
+.cart > form > button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.cart-info{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 80%;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(236, 211, 211);
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    margin-left : 150px;
+}
+
+
+.cart-info:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-suggestions{
+    margin-top: 5px;
+    background-color: #f4b0a9;
+    text-align: center;
+    width: 155px;
+    height: auto;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+@media (max-width:778px){
+    .cart-info{
+        border: 1px solid black;
+        border-radius: 8px;
+        width: 80%;
+        padding: 20px;
+        margin: 15px;
+        background-color: rgb(236, 211, 211);
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        margin-left : 10px;
+    }
+    
+}
+
+
+
+/*Icons*/
+.profile-btn-icon:hover{
+    padding: 8px;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-btn-icon:hover{
+    padding: 8px;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cart-btn-icon{
+    padding: 4px;
+}
+.cart-btn-icon:hover{
+    padding: 8px;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
