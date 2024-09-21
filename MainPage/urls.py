@@ -12,3 +12,9 @@ app_name = 'mainpage'
 urlpatterns = [
     path("",views.landing_view,name="mainpage"),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
-
+from django.conf import settings
+from django.conf.urls.static import static
 #below are the URL to call the function in view file
 #in the account app URL goes like
 #        .../account/login/ or acccounts/signup/ or just account/
@@ -17,3 +18,5 @@ urlpatterns = [
     path('change/',views.change_name,name="change"),
     path('changepass/',views.change_pass,name="change_pass")
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
